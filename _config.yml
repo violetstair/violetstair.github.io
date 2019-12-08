@@ -4,7 +4,7 @@ title: "VioletStair"
 description: "violetstair's blog"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: /violetstair
+baseurl: /
 google_analytics: 'UA-140387185-1'
 include: ["_pages"]
 permalink: /:title/
@@ -16,7 +16,7 @@ authors:
     display_name: VioletStair
     gravatar: 
     email: violetstair@gmail.com
-    web: http://violetstair.github.io/
+    web: https://violetstair.github.io/
     twitter: https://twitter.com/kail_adams
     description: "개발, 취미, 그리고 일상에 대한 이야기 ..."
 
