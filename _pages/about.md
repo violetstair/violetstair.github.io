@@ -182,7 +182,7 @@ comments: true
                 </ul>
             </li>
         </ul>
-        <h4></a>Plumbee Soft (2015.04 ~ 2015.10) - System Engineer</h4>
+        <h4>Plumbee Soft (2015.04 ~ 2015.10) - System Engineer</h4>
         <blockquote>
             <p>게임 개발 및 서비스에 필요한 사내 및 IDC 인프라를 구축하고 운영에 필요한 도구들을 개발 하였으며, 사내 보안 감사 및 서비스 취약점 분석 등을 진행</p>
         </blockquote>
