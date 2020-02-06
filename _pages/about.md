@@ -60,4 +60,3 @@ comments: true
 
 # 수상 이력
 * 2018년 12월 [EOSYS DApp Contest - 1st Place](https://link.medium.com/47Cej8dZg0)
-
