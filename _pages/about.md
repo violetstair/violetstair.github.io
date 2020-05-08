@@ -29,7 +29,7 @@ comments: true
 * Ansible
 
 # 주요 이력
-## [OWDIN Network](https://owdin.network) (2018.03 ~ Present)
+## [OWDIN Network](https://owdin.network) (2017.11 ~ 2020.03)
 > Backend and dApp Developer
 
 ## [CAFE 24](https://www.cafe24.com/) (2015.12 ~ 2017.10)
