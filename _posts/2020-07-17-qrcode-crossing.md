@@ -30,7 +30,7 @@ qrcode_image = qrcode_data.make_image()
 qrcode_image.save('qrcode_test.png')
 ```
 
-![qrcode]("/assets/images/qrcode/qrcode.png")
+![qrcode](/assets/images/qrcode/qrcode.png)
 
 #### QR Code 색상 변경
 
@@ -40,7 +40,7 @@ qrcode를 생성할 때 `fill_color`와 `back_color`를 추가해 qrcode의 색�
 qrcode_image = qrcode_data.make_image(fill_color="#B43DD8", back_color="white")
 ```
 
-![qrcode_color]("/assets/qrcode/qrcode_color.png")
+![qrcode_color](/assets/qrcode/qrcode_color.png)
 
 
 #### QR Code Crossing
@@ -71,7 +71,7 @@ qrcode_image.paste(crossing_image, pos)
 
 이미지를 qrcode의 중간에 넣기 위해 `qrcode size - image size`의 절반을 이미지 시작점으로 잡았다
 
-![qrcode_non_resize]("/assets/images/qrcode/qrcode_non_resize.png")
+![qrcode_non_resize](/assets/images/qrcode/qrcode_non_resize.png)
 
 인식 불가 .... 
 
@@ -85,6 +85,6 @@ crossing_image = crossing_image.resize((crossing_image.size[0] // 2 , crossing_i
 
 이미지를 절반으로 줄인 후 qrcode를 다시 생성해 봤다
 
-![qrcode_resize]("/assets/images/qrcode/qrcode_resize.png")
+![qrcode_resize](/assets/images/qrcode/qrcode_resize.png)
 
 생각보다 간편하게 qrcode 생성이 가능
