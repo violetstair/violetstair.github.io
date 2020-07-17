@@ -40,7 +40,7 @@ qrcode를 생성할 때 `fill_color`와 `back_color`를 추가해 qrcode의 색�
 qrcode_image = qrcode_data.make_image(fill_color="#B43DD8", back_color="white")
 ```
 
-![qrcode_color](/assets/qrcode/qrcode_color.png)
+![qrcode_color](/assets/images/qrcode/qrcode_color.png)
 
 
 #### QR Code Crossing
