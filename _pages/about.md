@@ -12,10 +12,10 @@ comments: true
 * Node.js
 
 ## Blockchain
-* EOSIO
-* Ethereum
-* ICON Loopchain
-* Cosmos(Tendermint)
+* [EOSIO](https://github.com/EOSIO/eos)
+* [Ethereum](https://github.com/ethereum/go-ethereum)
+* [ICON Loopchain](https://github.com/icon-project/loopchain)
+* [Cosmos-SDK](https://github.com/cosmos/cosmos-sdk)
 
 ## Etc
 * RabbitMQ
@@ -41,10 +41,10 @@ comments: true
 ## Appsterworks (2014.07 ~ 2015.03)
 > System Engineer
 
-## IX Games (2012.04 ~ 2014.07)
+## IX2 Games (2012.04 ~ 2014.07)
 > System Engineer
 
-## IX Games (2009.02 ~ 2011.10)
+## IX2 Games (2009.02 ~ 2011.10)
 > IDC Operator
 
 # 수료 교육
