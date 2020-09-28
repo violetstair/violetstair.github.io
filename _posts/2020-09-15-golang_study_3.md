@@ -2,7 +2,7 @@
 layout: post
 title:  "Golang Chapter 3"
 author: violetstair
-categories: [ Programming ]
+categories: [ Golang ]
 tags: [Golang, Programming]
 image: assets/images/gopher.jpg
 description: "Golang study chapter 3 : Golang 기본 문법"

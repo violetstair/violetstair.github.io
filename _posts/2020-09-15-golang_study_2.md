@@ -2,7 +2,7 @@
 layout: post
 title:  "Golang Chapter 2"
 author: violetstair
-categories: [ Programming ]
+categories: [ Golang ]
 tags: [Golang, Programming]
 image: assets/images/gopher.jpg
 description: "Golang study chapter 2 : Golang 간단히 살펴보기"
