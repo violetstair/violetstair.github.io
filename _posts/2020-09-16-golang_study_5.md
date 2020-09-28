@@ -4,7 +4,7 @@ title:  "Golang Chapter 5"
 author: violetstair
 categories: [ Programming ]
 tags: [Golang, Programming]
-image: assets/gopher.jpg
+image: assets/images/gopher.jpg
 description: "Golang study chapter 5 : Go의 Type 시스템"
 featured: true
 hidden: true

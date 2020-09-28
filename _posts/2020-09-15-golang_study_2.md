@@ -4,7 +4,7 @@ title:  "Golang Chapter 2"
 author: violetstair
 categories: [ Programming ]
 tags: [Golang, Programming]
-image: assets/gopher.jpg
+image: assets/images/gopher.jpg
 description: "Golang study chapter 2 : Golang 간단히 살펴보기"
 featured: true
 hidden: true
@@ -28,7 +28,7 @@ GOROOT="/usr/local/opt/go/libexec"
 * GOARCH : `Golang`이 빌드될 때 사용하는 아키텍쳐
 * GOOS : `Golang`이 빌드될 때 사용하는 시스템
 * GOPATH : 프로젝트 진행 위치 (Workspace, library, build file, package, 등...)
-* GOROOT : `Golang`이 설치된 위치, `JAVA_HOME`과 유사한 개념 
+* GOROOT : `Golang`이 설치된 위치, `JAVA_HOME`과 유사한 개념
 
 ## 패키지
 

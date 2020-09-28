@@ -4,7 +4,7 @@ title:  "Golang Chapter 1"
 author: violetstair
 categories: [ Programming ]
 tags: [Golang, Programming]
-image: assets/gopher.jpg
+image: assets/images/gopher.jpg
 description: "Golang study chapter 1 : Golang 소개"
 featured: true
 hidden: true

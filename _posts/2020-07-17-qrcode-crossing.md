@@ -42,7 +42,6 @@ qrcode_image = qrcode_data.make_image(fill_color="#B43DD8", back_color="white")
 
 ![qrcode_color](/assets/images/qrcode/qrcode_color.png)
 
-
 #### QR Code Crossing
 
 qrcode에 이미지를 넣어 생성해보기
@@ -73,7 +72,7 @@ qrcode_image.paste(crossing_image, pos)
 
 ![qrcode_non_resize](/assets/images/qrcode/qrcode_non_resize.png)
 
-인식 불가 .... 
+인식 불가 ....
 
 이미지가 너무 커서 qrcode를 다 가려서 안되는 듯 하다
 
