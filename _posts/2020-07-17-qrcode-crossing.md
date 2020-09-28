@@ -3,7 +3,7 @@ layout: post
 title:  "QR Code Crossing"
 author: violetstair
 categories: [ Programming ]
-tags: [Python, Programming]
+tags: [python, programming]
 image: assets/images/fawkes.jpg
 description: "QRCode 생성하기"
 featured: true

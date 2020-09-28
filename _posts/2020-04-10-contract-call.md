@@ -3,7 +3,7 @@ layout: post
 title:  "silidity contract call"
 author: violetstair
 categories: [ Programming ]
-tags: [ethereum, blockchain, Programming]
+tags: [ethereum, blockchain, programming, solidity]
 image: assets/images/solidity.svg
 description: "다른 컨트랙트 호출하기"
 featured: true

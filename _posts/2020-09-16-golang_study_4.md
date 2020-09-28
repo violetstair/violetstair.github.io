@@ -3,7 +3,7 @@ layout: post
 title:  "Golang Chapter 4"
 author: violetstair
 categories: [ Golang ]
-tags: [Golang, Programming]
+tags: [golang, programming]
 image: assets/images/gopher.jpg
 description: "Golang study chapter 4 : 배열 / 슬라이스 / 맵"
 featured: true

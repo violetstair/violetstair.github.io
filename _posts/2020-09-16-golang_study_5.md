@@ -3,7 +3,7 @@ layout: post
 title:  "Golang Chapter 5"
 author: violetstair
 categories: [ Golang ]
-tags: [Golang, Programming]
+tags: [golang, programming]
 image: assets/images/gopher.jpg
 description: "Golang study chapter 5 : Go의 Type 시스템"
 featured: true

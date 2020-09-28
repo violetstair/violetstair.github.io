@@ -3,7 +3,7 @@ layout: post
 title:  "Golang Chapter 1"
 author: violetstair
 categories: [ Golang ]
-tags: [Golang, Programming]
+tags: [golang, programming]
 image: assets/images/gopher.jpg
 description: "Golang study chapter 1 : Golang 소개"
 featured: true

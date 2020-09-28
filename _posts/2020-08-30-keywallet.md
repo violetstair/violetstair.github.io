@@ -3,7 +3,7 @@ layout: post
 title:  "Keystore 파일 구조"
 author: violetstair
 categories: [ Programming ]
-tags: [Blockchain, Programming, Javascript]
+tags: [blockchain, programming, javascript]
 image: assets/images/fawkes.jpg
 description: "하나의 Privatekey로 여러 체인의 Address 생성해보기"
 featured: false

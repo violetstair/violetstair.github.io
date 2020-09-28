@@ -3,7 +3,7 @@ layout: post
 title:  "Cosmos-SDK Starport"
 author: violetstair
 categories: [ CosmosSDK ]
-tags: [Golang, Programming]
+tags: [golang, programming, cosmos-sdk]
 image: assets/images/starport.png
 description: "COSMOS SDK Starport로 쉽게 만들어보는 vote app"
 featured: false
