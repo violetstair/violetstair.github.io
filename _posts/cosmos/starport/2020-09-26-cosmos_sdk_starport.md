@@ -151,8 +151,8 @@ Starport has generated a basic front-end for our application.
     <div v-for="option in options">
       <app-input placeholder="Option" v-model="option.title" />
     </div>
-    <app-button @click.native="add">Add option</app-button>
-    <app-button @click.native="submit">Create poll</app-button>
+    <app-button @click.native="add"> Add option </app-button>
+    <app-button @click.native="submit"> Create poll </app-button>
   </div>
 </template>
 
@@ -226,13 +226,13 @@ starport type vote pollID value
 <template>
   <div>
     <div v-for="poll in polls">
-      <app-text type="h2">Poll {{ poll.title }}</app-text>
+      <app-text type="h2">Poll { { poll.title } } </app-text>
       <app-radio-item
         @click.native="submit(poll.id, option)"
         v-for="option in poll.options"
         :value="option"
       />
-      <app-text type="subtitle">Results: {{ results(poll.id) }}</app-text>
+      <app-text type="subtitle">Results: { { results(poll.id) } }</app-text>
     </div>
   </div>
 </template>
