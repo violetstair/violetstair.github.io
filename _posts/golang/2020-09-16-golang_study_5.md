@@ -6,7 +6,7 @@ categories: [ Golang ]
 tags: [golang, programming]
 image: assets/images/gopher.jpg
 description: "Golang study chapter 5 : Go의 Type 시스템"
-featured: true
+featured: false
 hidden: true
 ---
 

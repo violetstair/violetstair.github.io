@@ -6,7 +6,7 @@ categories: [ Golang ]
 tags: [golang, programming]
 image: assets/images/gopher.jpg
 description: "Golang study chapter 4 : 배열 / 슬라이스 / 맵"
-featured: true
+featured: false
 hidden: true
 ---
 

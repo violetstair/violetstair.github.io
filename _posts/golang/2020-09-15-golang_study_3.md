@@ -6,7 +6,7 @@ categories: [ Golang ]
 tags: [golang, programming]
 image: assets/images/gopher.jpg
 description: "Golang study chapter 3 : Golang 기본 문법"
-featured: true
+featured: false
 hidden: true
 ---
 

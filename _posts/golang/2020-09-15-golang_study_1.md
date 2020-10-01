@@ -6,7 +6,7 @@ categories: [ Golang ]
 tags: [golang, programming]
 image: assets/images/gopher.jpg
 description: "Golang study chapter 1 : Golang 소개"
-featured: true
+featured: false
 hidden: true
 ---
 
