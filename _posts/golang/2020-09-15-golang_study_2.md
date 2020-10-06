@@ -158,7 +158,7 @@ go fmt [package path]
 
 #### `dep`
 
-`golang`의 공식(?) 의존성 관리도구
+`golang`의 의존성 관리도구
 
 설치 방법
 
@@ -201,7 +201,9 @@ dep ensure
 
 #### `module`
 
-초기화
+`Golang` 1.11 버전 이후에 추가된 공식 의존성 관리도구
+
+go module 초기화
 
 ```bash
 go mod init
