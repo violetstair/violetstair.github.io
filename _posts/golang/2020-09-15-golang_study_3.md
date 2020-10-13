@@ -22,7 +22,7 @@ var age int
 ### 변수 초기화
 
 ```go
-var a, b, c int = 1, 2, 3
+var a, b, c = 1, 2, 3
 
 x, y, z := "hello", 1, true
 

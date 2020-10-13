@@ -105,6 +105,14 @@ func foo(array [5]int) {
 
 // [ addres_1 ][ 3 ][ 5 ]
 // address_1 : [1][2][3][ ][ ]
+
+slice := make([]int, 3, 5)
+fmt.Printf("Slice 현재 길이 : %d\n", len(slice1))
+fmt.Printf("Slice 최대 길이 : %d\n", cap(slice1))
+
+// 실행 결과
+Slice 최대 길이 : 3
+Slice 현재 길이 : 5
 ```
 
 ### 슬라이스의 생성과 초기화
@@ -114,7 +122,7 @@ func foo(array [5]int) {
 slice := make([]string, 5)
 
 // 길이가 3, 용량이 5인 정수 슬라이스
-slice := make(int, 3, 5)
+slice := make([]int, 3, 5)
 
 // 슬라이스 리터럴을 이용한 슬라이스 초기화
 // 길이와 용량이 4인 문자열 슬라이스
@@ -160,24 +168,35 @@ slice[1] = 4
 #### 슬라이스 잘라내기
 
 ```go
-// [ address_1 ][ 5 ][ 5 ]
+// slice 구조: [ 메모리 주소 포인터 ][ 현재 길이 ][ 최대 길이 ]
+// 슬라이스 생성
+// 생성된 슬라이스 구조
+// [ 메모리 주소 포인터 ][ 5 ][ 5 ]
+// 메모리 주소 -> [ 1 ][ 2 ][ 3 ][ 4 ][ 5 ]
 slice := []int{1, 2, 3, 4, 5}
-// address_1 : [1][2][3][4][5]
+fmt.Printf("Slice  : %v\n", slice)
+fmt.Printf("Slice 현재 길이 : %d\n", len(slice))
+fmt.Printf("Slice 최대 길이 : %d\n", cap(slice))
 
-// slice의 일부만 잘라내 새로운 슬라이스를 생성
-newSlice := slice[1:3]
-// [ address_2 ][ 3 ][ 4 ]
-// 슬라이스의 내부 배열을 갖는 슬라이스 즉 다른 슬라이스의 일부를 잘라 갖는 슬라이스는
-// 원 슬라이스의 0번 인덱스부터 계산된 길이를 가진다
-
-slice := make([]int, l, m)
-// slice: [ address_1 ][ l ][ m ]
-// array : [address_1][address_2][address_3][address_4][address_5]
-newSlice := slice[i:k]
-// newSlice : [ address_2 ][ k ][ y ]
-// k = j - i
-// y = m - i
+// 슬라이스 자르기
+// slice1 := slice[ i : k ]
+// slice를 잘라 만든 slice1의 구조
+// [ 메모리 주소 포인터 ][ k - i ][ 원 슬라이스의 최대 길이 - i ]
+// [ 메모리 주소 포인터 ][ 2 ][ 4 ]
+// 메모리 주소 -> [ 2 ][ 3 ]
+// slice 데이터의 선택 범위 : slice[i] ~ slice[k-1] == slice[i:k]
+slice1 := slice[1:3]
+fmt.Printf("Slice1  : %v\n", slice1)
+fmt.Printf("Slice1 현재 길이 : %d\n", len(slice1))
+fmt.Printf("Slice1 최대 길이 : %d\n", cap(slice1))
 ```
+
+##### 참조
+  
+![slice](/assets/images/golang/golang-4-01.png)
+
+* slice[1]의 값을 바꾸면 slice1[0]의 값도 변경 되게 된다.
+* slice1에 값을 추가하기 위해 append를 해도 slice에는 영향을 미치지 않는다
 
 #### 슬라이스 확장
 
