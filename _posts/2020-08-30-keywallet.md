@@ -7,7 +7,7 @@ tags: [blockchain, programming, javascript]
 image: assets/images/fawkes.jpg
 description: "하나의 Privatekey로 여러 체인의 Address 생성해보기"
 featured: false
-hidden: true
+hidden: false
 ---
 
 ## 블록체인의 서명과 키파일

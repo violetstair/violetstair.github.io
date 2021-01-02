@@ -40,10 +40,14 @@ title: Home
 
     <div class="row listrecent">
 
-        {% for post in paginator.posts %}
+        {% for post in site.posts %}
+        
+            {% if post.hidden == false %}
 
-        {% include postbox.html %}
+                {% include postbox.html %}
 
+            {% endif %}
+        
         {% endfor %}
 
     </div>
