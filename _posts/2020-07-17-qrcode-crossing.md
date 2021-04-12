@@ -7,7 +7,7 @@ tags: [python, programming]
 image: assets/images/fawkes.jpg
 description: "QRCode 생성하기"
 featured: true
-hidden: true
+hidden: false
 ---
 QR Code에 이미지를 넣어서 생성하기
 

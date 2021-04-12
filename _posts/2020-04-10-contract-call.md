@@ -7,7 +7,7 @@ tags: [ethereum, blockchain, programming, solidity]
 image: assets/images/solidity.svg
 description: "다른 컨트랙트 호출하기"
 featured: true
-hidden: true
+hidden: false
 ---
 
 smart contract에서 다른 smart contract 호출하기
